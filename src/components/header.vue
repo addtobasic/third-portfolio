@@ -10,8 +10,10 @@
           <v-btn
           flat
           color="black"
-          style="height:70px width:100px font-weight:bold;">
-            Top
+          style="height:70px;
+          width:100px;
+          font-weight:bold;">
+            top
           </v-btn>
         </router-link>
         <router-link
@@ -23,9 +25,9 @@
           <v-btn
           flat
           color="black"
-          style="height:70px
-          width:100px
-          font-weight:bold">
+          style="height:70px;
+          width:100px;
+          font-weight:bold;">
           {{item.to}}
           </v-btn>
         </router-link>
