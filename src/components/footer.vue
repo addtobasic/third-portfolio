@@ -1,6 +1,7 @@
 <template>
-  <v-footer color="#00c853" dark app>
+  <v-footer color="#48b883" dark app>
     <div class="flex-grow-1"></div>
+    <i class="far fa-envelope" id="gmail"></i>
     genshi0916@gmail.com
   </v-footer>
 </template>
@@ -13,7 +14,7 @@
   }
 </script>
 <style>
-  v-footer{
-    margin-bottom: auto;
-  }
+#gmail{
+  margin-right:3px;
+}
 </style>

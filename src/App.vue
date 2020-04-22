@@ -1,10 +1,11 @@
 <template>
   <div id="app">
     <v-app>
-      <v-app-bar color="#00c853" app dark style="height:60px;">
-        <v-toolbar-title><div style="color:#000063;">Genshi's Portfolio</div></v-toolbar-title>
+      <v-app-bar color="#48b883" app dark style="height:60px;">
+        <v-toolbar-title>Genshi's Portfolio</v-toolbar-title>
         <v-spacer></v-spacer>
         <Header></Header>
+        <v-app-bar-nav-icon></v-app-bar-nav-icon>
       </v-app-bar>
         <v-content>
           <router-view/>
