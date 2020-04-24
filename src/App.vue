@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <v-app>
-      <v-navigation-drawer app v-model="drawer" clipped right>
+      <v-navigation-drawer app v-model="drawer" clipped right v-if="$vuetify.breakpoint.xsOnly">
         <v-container>
           <v-list-item>
             <v-list-item-content>
@@ -12,19 +12,19 @@
           </v-list-item>
           <v-divider></v-divider>
           <v-list dense nav>
-              <v-list-item-content>
-                <v-list-item-title ><v-btn to='/' text>top</v-btn></v-list-item-title>
-                <v-list-item-title><v-btn to='/Profile' text>profile</v-btn></v-list-item-title>
-                <v-list-item-title><v-btn to='/Work' text>work</v-btn></v-list-item-title>
-              </v-list-item-content>
+            <v-list-item-content>
+              <v-list-item-title ><v-btn to='/' text>top</v-btn></v-list-item-title>
+              <v-list-item-title><v-btn to='/Profile' text>profile</v-btn></v-list-item-title>
+              <v-list-item-title><v-btn to='/Work' text>work</v-btn></v-list-item-title>
+            </v-list-item-content>
           </v-list>
         </v-container>
       </v-navigation-drawer>
-      <v-app-bar color="#48b883" dark app clipped-right style="height:60px;">
+      <v-app-bar color="#44bc84" dark app clipped-right style="height:60px;">
         <v-toolbar-title>Genshi's Portfolio</v-toolbar-title>
         <v-spacer></v-spacer>
-        <Header v-if="true"></Header>
-        <v-app-bar-nav-icon @click="drawer=!drawer" v-if="true"></v-app-bar-nav-icon>
+        <Header v-if="!$vuetify.breakpoint.xsOnly"></Header>
+        <v-app-bar-nav-icon @click="drawer=!drawer" v-if="$vuetify.breakpoint.xsOnly"></v-app-bar-nav-icon>
       </v-app-bar>
         <v-content>
           <router-view/>
@@ -38,7 +38,7 @@
 import Header from './components/header'
 import Footer from './components/footer'
 
-export default {
+export default{
   name: 'App',
   components: {
     Header,
@@ -51,6 +51,3 @@ export default {
   }
 }
 </script>
-<style>
-
-</style>
