@@ -3,7 +3,7 @@
     <div align="center">
       <div id="icon"></div>
     </div>
-    <p class="font-weight-black" id="name" align="center">Kano Genki</p>
+    <p class="font-weight-black" id="name" align="center">Genshi0916</p>
     <v-container>
       <v-layout justify-center>
         <v-btn v-for="site in sites" :key="site" class="mx-6" fab icon>
@@ -46,7 +46,6 @@
 </script>
 <style>
   #name{
-    margin-top:20px;
     color: #35495e;
   }
 
