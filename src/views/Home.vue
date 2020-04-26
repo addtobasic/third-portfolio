@@ -7,7 +7,7 @@
     <v-container>
       <v-layout justify-center>
         <v-btn v-for="site in sites" :key="site" class="mx-6" fab icon>
-          <a v-bind:href="site.link">
+          <a v-bind:href="site.link" target="_blank">
             <v-avatar size="70">
               <img v-bind:src="site.icon" alt="avatar" id="radicon">
             </v-avatar>
@@ -107,7 +107,7 @@
     }
   }
 
-    @media screen and (min-width:1400px){
+  @media screen and (min-width:1400px){
     #name{
       margin-top:30px;
       margin-bottom:40px;
