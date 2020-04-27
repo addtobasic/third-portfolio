@@ -5,14 +5,14 @@
       <v-card class="d-inline-block mx-auto" id="card">
         <v-container>
           <v-row>
-            <v-col md="4" lg="3">
-              <span id="nameGenki">Kano Genki</span>
+            <v-col md="4" lg="3" align="center">
+              <p id="nameGenki" >Kano Genki</p>
               <v-img id="genki" src="../assets/genki.jpg"></v-img>
             </v-col>
             <v-col md="8" lg="9">
               <div>
                 <p></p>
-                <p>北海道の学生をしている加納源基といいます。留年しないように適度にさぼりつつプログラムを書いています。PC部に所属していて1,2年と、ぼんやり情報技術と触れ合っていしたが3年になってWebフロントエンド楽しいになってきてVueをさわさわしています。ひとおりさわってバックエンドにも興味が出てきたので次はDjangoかLaravelあたりをひとおりさわっていきたいと思っています。あと最近Atcorderを始めたので目標緑を目指しがんばります。
+                <p>北海道の学生をしている加納源基といいます。留年しないように適度にさぼりつつプログラムを書いたり書かなかったりしています。PC部に所属していて1,2年と、ぼんやり情報技術と触れ合っていましたが3年になってWebフロントエンド楽しいになってきてVueをさわさわしています。ひととおりさわってバックエンドにも興味が出てきたので次はDjangoかLaravelあたりをさわっていきたいと思っています。あと最近Atcorderを始めたので緑を目指しがんばります。
                 </p>
                 <p>VScode、npm、chrome、きのこの山、緑のたぬき、こしあん派です。</p>
                 <v-list>
@@ -38,7 +38,7 @@
         list:[
           {icon:'fa-school',about:'旭川工業高等専門学校システム制御情報工学科3年'},
           {icon:'fa-users',about:'FuraIT,旭川ゆるい勉強会,LOCAL学生部'},
-          {icon:'fa-star',about:'Twitter,アニメ鑑賞,ノベルゲーム,プログラミング'}
+          {icon:'fa-star',about:'Twitter,アニメ鑑賞,ノベルゲーム'}
         ]
       }
     }
