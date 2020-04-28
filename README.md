@@ -1,0 +1,2 @@
+# Genshi0916.github.io
+わけあってgithub pagesの設定からdocs folderを選択することができず/docsのフォルダから読んでくれなかったのファイルを外に出して汚くなってしまっています
