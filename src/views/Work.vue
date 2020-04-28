@@ -5,13 +5,20 @@
       <v-card class="pa-6" id="card">
         <v-layout row wrap>
           <v-flex  v-for="(item,i) in list" :key="i">
-            <v-card class="grey lighten-3 ma-4" height="400px">
+            <v-card class="grey lighten-3 ma-4">
               <v-container>
-                <v-card-text>
+                <v-card-text  id="center">
+                  <v-col>
                   <p align="center" id="title">{{item.title}}</p>
                   <v-layout justify-center>
-                    <a @click="jumplink(link[i])"><img :src="image[i]" width="220px"></a>
+                    <a @click="jumpLink(link[i])">
+                      <img :src="image[i]" id="cardImage">
+                    </a>
                   </v-layout>
+                  </v-col>
+                  <v-col>
+                    <p align="center" id="comment">{{item.comment}}</p>
+                  </v-col>
                 </v-card-text>
               </v-container>
             </v-card>
@@ -25,11 +32,11 @@
   export default{
     data:()=>({
         list:[
-          {title:'FuraIT',comment:''},
-          {title:'旭川ゆるい勉強会',comment:''},
-          {title:'第3回 全国高専ビジネスコンテストby高専キャリア',comment:'チーム「よっぴー」MVT,サンケイエンジニアリング賞'},
-          {title:'第30回高専プロコン',comment:'競技部門'},
-          {title:'高専カンファin北海道',comment:'司会'},
+          {title:'FuraIT',comment:'僕が富良野市出身という縁もあって勉強会などでお手伝いさせてもらっています'},
+          {title:'旭川ゆるい勉強会',comment:'旭川高専に通っているということもありまわりの友人たちも誘って勉強会のお手伝いをさせてもらっています'},
+          {title:'第3回 全国高専ビジネスコンテストby高専キャリア',comment:'チーム「よっぴー」MVT,サンケイエンジニアリング賞を受賞しました'},
+          {title:'第30回高専プロコン',comment:'競技部門に参加する予定だったが台風19号により移動部門敗退'},
+          {title:'高専カンファin北海道',comment:'運営陣として参加し司会をしました'},
         ],
         image:[
           require("../assets/furait.jpg"),
@@ -47,10 +54,24 @@
         ],
       }),
     methods:{
-      jumplink(link){
+      jumpLink(link){
         window.open(link)
       }
-    }
+    },
+
+      props: {
+    flat: Boolean,
+    hover: Boolean,
+    img: String,
+    link: Boolean,
+    loaderHeight: {
+      type: [Number, String],
+      default: 4,
+    },
+    outlined: Boolean,
+    raised: Boolean,
+    shaped: Boolean,
+  },
   }
 </script>
 <style scoped>
@@ -58,9 +79,16 @@
     color: #35495e;
   }
 
-  title{
+  #title{
     color: #35495e;
     font-size: 23px;
+  }
+  #cardImage{
+    width:230px;
+  }
+
+  #cemter{
+    justify-content: center;
   }
 
   @media screen and (min-width:0px) and ( max-width:480px){
@@ -68,6 +96,11 @@
       margin-top:5px;
       font-size: 55px;
     }
+
+    #title{
+      color: #35495e;
+      font-size: 20px;
+  }
 
     #card{
       width: 340px;
