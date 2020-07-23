@@ -2,32 +2,35 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>hoge</title>
+    <title>404</title>
     <script>
-      let secmentCount = 1; // [2018/2/2 Added]: 変数が抜けていると指摘がありましたので，追加しました．
+      let secmentCount = 1;
       let l = window.location;
       let port = l.port ? ':' + l.port : ''
-      l.replace(
+      l.replace
+      (
           `${l.protocol}//${l.hostname}${port}/?p=${l.pathname.split('/').slice(0, 1 + segmentCount).join('/')}`
-
-          (function (l) {
-    if (l.search) {
-        var q = {};
-        l.search.slice(1).split('&').forEach(function (v) { // ?p=/fooの分解
-            var a = v.split('='); // 'p=/foo' となっているはずなので=で分割
-            q[a[0]] = a[1]; // {p: '/foo'} 形式に修正
-        });
-        if (q.p !== undefined) {
-            window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || '')); // https://hoge.com/fooへ遷移
-        }
-    }
-}(window.location))
-          )
+          (function (l)
+          {
+            if (l.search)
+            {
+                var q = {};
+                l.search.slice(1).split('&').forEach(function (v) { // ?p=/fooの分解
+                    var a = v.split('='); // 'p=/foo' となっているはずなので=で分割
+                    q[a[0]] = a[1]; // {p: '/foo'} 形式に修正
+                });
+                if (q.p !== undefined) {
+                    window.history.replaceState(null, null, l.pathname.slice(0, -1) + (q.p || '')); // https://hoge.com/fooへ遷移
+                }
+            }
+          }(window.location))
+      )
     </script>
   </head>
   <body>
     <div id="app">
-      <!-- {% comment %} <p>hoge</p> {% endcomment %} -->
+      <p>404 not found</p>
+      <p><a href="http://genshi0916.github.io/">Go back to the home page.</a></p>
     </div>
   </body>
 </html>
