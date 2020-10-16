@@ -11,14 +11,12 @@ url : [http://genshi0916.github.io/](http://genshi0916.github.io/)
  
 # Installation
  
-
  
 ```bash
-$ npm install -g @vue/cli
-$ npm install vuetify
+$ npm install
 ```
  
-# Usage
+# Usage(Starting the development server)
 
 ```bash
 $ npm run serve
