@@ -2,26 +2,23 @@
 
 僕のポートフォリオです
 
-url : [http://genshi0916.github.io/](http://genshi0916.github.io/)
+今このポートフォリオは工事中なので[second_portfolio](https://github.com/Genshi0916/second_portflio)をbuildしたものをdocsにおいてます。ご了承ください
+。
 
-# Requirement
- 
-* vue
-* vuetify
- 
-# Installation
- 
+url : [http://genshi0916.github.io/](http://genshi0916.github.io/)
+# Setup
  
 ```bash
+$ git clone https://github.com/Genshi0916/Genshi0916.github.io
+$ cd Genshi0916.github.io
 $ npm install
 ```
  
-# Usage(Starting the development server)
+# Start
 
 ```bash
-$ npm run serve
+$ npm run dev
 ```
-
 # Hosting
 
-This page is hosted by Github Pages.
+This page is hosted by GitHub Pages.
