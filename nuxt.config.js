@@ -6,8 +6,7 @@ export default {
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    titleTemplate: '%s - genshi0916.github.io',
-    title: 'genshi0916.github.io',
+    title: "Genshi's Portfolio",
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },

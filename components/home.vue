@@ -7,11 +7,11 @@
       <h1 id="nickName" align="center" >Genshi0916</h1>
       <h2 id="name" align="center" >Genki Kano</h2>
       <v-row justify="space-around">
-        <a href="https://twitter.com/genshi0916"><v-icon>mdi-twitter</v-icon></a>
-        <a href="https://github.com/Genshi0916"><v-icon>mdi-github</v-icon></a>
-        <a href="https://www.facebook.com/genki.kano.794"><v-icon>mdi-facebook</v-icon></a>
-        <a href="https://www.instagram.com/genshi0916/"><v-icon>mdi-instagram</v-icon></a>
-        <a href="https://qiita.com/genshi0916"><v-icon>mdi-blogger</v-icon></a>
+        <a href="https://twitter.com/genshi0916" target="_blank"><v-icon>mdi-twitter</v-icon></a>
+        <a href="https://github.com/Genshi0916" target="_blank"><v-icon>mdi-github</v-icon></a>
+        <a href="https://www.facebook.com/genki.kano.794" target="_blank"><v-icon>mdi-facebook</v-icon></a>
+        <a href="https://www.instagram.com/genshi0916/" target="_blank"><v-icon>mdi-instagram</v-icon></a>
+        <a href="https://qiita.com/genshi0916" target="_blank"><v-icon>mdi-blogger</v-icon></a>
       </v-row>
     </div>
   </v-card>

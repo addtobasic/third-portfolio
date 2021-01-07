@@ -2,6 +2,7 @@
   <div>
     <Home/>
     <About/>
+    <Products/>
     <p>hogehgoe</p>
     <p>hogehgoe</p>
     <p>hogehgoe</p>
@@ -9,17 +10,19 @@
 </template>
 
 <script>
-import Home from '../components/home'
-import About from '../components/about'
-import Footer from '../components/footer'
+  import Home from '../components/Home'
+  import About from '../components/About'
+  import Products from '../components/Products'
+  import Footer from '../components/footer'
 
-export default {
-  components:{
-    Home,
-    About,
-    Footer
-  },
-}
+  export default {
+    components:{
+      Home,
+      About,
+      Products,
+      Footer
+    },
+  }
 </script>
 <style scoped>
 
