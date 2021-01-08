@@ -1,7 +1,7 @@
 <template>
   <v-card light>
     <div id="aboutMain">
-      <h1 class="" align="center" id="profile">About me</h1>
+      <h1 class="" align="center" id="title">About me</h1>
       <v-layout justify-center>
         <fade-in-component>
           <section>
@@ -58,9 +58,9 @@
   }
 </script>
 <style scoped>
-  #profile{
+  #title{
     color: #35495e;
-    padding:20px 0px;
+    padding:30px 0px;
   }
 
   #aboutMain{

@@ -3,9 +3,8 @@
     <Home/>
     <About/>
     <Products/>
-    <p>hogehgoe</p>
-    <p>hogehgoe</p>
-    <p>hogehgoe</p>
+    <Work/>
+    <Contact/>
   </div>
 </template>
 
@@ -13,14 +12,16 @@
   import Home from '../components/Home'
   import About from '../components/About'
   import Products from '../components/Products'
-  import Footer from '../components/footer'
+  import Work from '../components/Work'
+  import Contact from '../components/Contact'
 
   export default {
     components:{
       Home,
       About,
       Products,
-      Footer
+      Work,
+      Contact
     },
   }
 </script>
