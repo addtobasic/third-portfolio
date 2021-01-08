@@ -1,17 +1,21 @@
 <template>
-  <v-card :width="windowWidth" :height="windowHeight" style="background-color:#263238;">
+  <v-card 
+    :width="windowWidth"
+    :height="windowHeight"
+    style="background-color:#263238;"
+  >
     <div id="home">
       <div align="center">
         <div id="icon"></div>
       </div>
-      <h1 id="nickName" align="center" >Genshi0916</h1>
-      <h2 id="name" align="center" >Genki Kano</h2>
+      <h1 align="center" id="nickName">Genshi0916</h1>
+      <h2 align="center" id="name" >Genki Kano</h2>
       <v-row justify="space-around">
-        <a href="https://twitter.com/genshi0916" target="_blank"><v-icon>mdi-twitter</v-icon></a>
-        <a href="https://github.com/Genshi0916" target="_blank"><v-icon>mdi-github</v-icon></a>
-        <a href="https://www.facebook.com/genki.kano.794" target="_blank"><v-icon>mdi-facebook</v-icon></a>
-        <a href="https://www.instagram.com/genshi0916/" target="_blank"><v-icon>mdi-instagram</v-icon></a>
-        <a href="https://qiita.com/genshi0916" target="_blank"><v-icon>mdi-blogger</v-icon></a>
+        <a href="https://twitter.com/genshi0916" target="_blank" rel="noreferrer"><v-icon>mdi-twitter</v-icon></a>
+        <a href="https://github.com/Genshi0916" target="_blank" rel="noreferrer"><v-icon>mdi-github</v-icon></a>
+        <a href="https://www.facebook.com/genki.kano.794" target="_blank" rel="noreferrer"><v-icon>mdi-facebook</v-icon></a>
+        <a href="https://www.instagram.com/genshi0916/" target="_blank" rel="noreferrer"><v-icon>mdi-instagram</v-icon></a>
+        <a href="https://qiita.com/genshi0916" target="_blank" rel="noreferrer"><v-icon>mdi-blogger</v-icon></a>
       </v-row>
     </div>
   </v-card>

@@ -3,7 +3,7 @@
     <v-card dark>
       <div id="contactMain">
         <h1 align="center" id="title">Contact</h1>
-        <v-container style="max-width: 600px;">
+        <v-container style="max-width: 800px;">
           <fade-in-component>
             <section>
               <v-card>
@@ -24,7 +24,7 @@
                 </v-card-text>
                 <v-card-actions>
                   <v-spacer></v-spacer>
-                  <v-btn  v-on:click="submit" color="">Send</v-btn>
+                  <v-btn  v-on:click="submit" color="primary">Send</v-btn>
                 </v-card-actions>
               </v-card>
             </section>
@@ -32,7 +32,7 @@
         </v-container>
       </div>
       <div id="copyRight">
-        <h5 align="center">icon by @V_Melville</h5>
+        <h5 align="center">icon by <a href="https://twitter.com/V_Melville" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
         <h4 align="center">© 2020 Genshi0916</h4>
       </div>
     </v-card>
@@ -97,5 +97,4 @@
   a{
     text-decoration: none;
   }
-
 </style>

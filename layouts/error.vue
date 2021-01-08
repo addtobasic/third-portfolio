@@ -1,6 +1,6 @@
 <template>
-  <v-app dark>
-    <v-card outlined id="main">
+  <v-app>
+    <v-card outlined id="main" light>
       <div>
         <v-card-title class="headline">
           <div v-if="error.statusCode === 404">

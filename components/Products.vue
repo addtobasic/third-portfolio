@@ -2,56 +2,54 @@
   <v-card>
       <v-layout row>
         <v-flex
-          xl4 lg4 md6 xs12
+          xl4 lg4 md6 sm12 xs12
           v-for="(item, i) in items"
           :key="i"
         >
           <fade-in-component>
             <section>
-              <v-container>
-                <v-row dense>
-                  <v-col id="colCenter">
-                    <v-btn
-                      width="400" 
-                      height="300" 
-                      :href="item.url" 
-                      target="_blank" 
-                      style="text-transform: none;"
-                    >
-                      <v-card
-                        id="productsCard"
-                        color="#37474f"
-                        outlined
-                        width="400"
-                        height="300"
-                        elevation="24"
+              <div class="cardSpace">
+                <v-container>
+                  <v-row dense>
+                    <v-col id="colCenter">
+                      <v-btn
+                        :href="item.url" 
+                        target="_blank" 
+                        rel="noreferrer"
+                        style="text-transform: none;"
+                        id="productsBtn"
                       >
-                        <v-layout>
-                          <v-img :src="item.image"></v-img>
-                        </v-layout>
-                        <v-card-title v-text="item.title"></v-card-title>
-                        <v-card-subtitle>{{item.description}}</v-card-subtitle>
-                      </v-card>
-                    </v-btn>
-                  </v-col>
-                </v-row>
-              </v-container>
+                        <v-card
+                          color="#37474f"
+                          outlined
+                          elevation="24"
+                          id="productsCard"
+                        >
+                          <v-layout>
+                            <v-img :src="item.image"></v-img>
+                          </v-layout>
+                          <v-card-title v-text="item.title"></v-card-title>
+                          <v-card-subtitle>{{item.description}}</v-card-subtitle>
+                        </v-card>
+                      </v-btn>
+                    </v-col>
+                  </v-row>
+                </v-container>
+              </div>
             </section>
           </fade-in-component>
         </v-flex>
       </v-layout>
   </v-card>
 </template>
+
 <script>
   import FadeInComponent from '../components/FadeInComponent'
   export default{
     name:'about',
+
     components:{
       FadeInComponent
-    },
-
-    methods:{
-
     },
 
     data:()=>({
@@ -96,68 +94,83 @@
     })
   }
 </script>
+
 <style>
+  .cardSpace{
+    padding:30px 0px;
+    /* padding-top:30px; */
+  }
 
-#colCenter{
-  text-align: center;
-}
+  #colCenter{
+    text-align: center;
+  }
 
-#productsCard {
-  transition: opacity .2s ease-in-out;
-  cursor: pointer;
-}
+  #productsCard {
+    transition: opacity .2s ease-in-out;
+    cursor: pointer;
+  }
 
-#productsCard:hover{
-  opacity: 0.7;
-}
+  #productsCard:hover{
+    opacity: 0.7;
+  }
 
-  @media screen and (min-width:0px) and ( max-width:600px){
-    #imageSize{
-      height:180px;
-      width:320px;
+  @media screen and (min-width:0px) and ( max-width:480px){
+    #productsBtn{
+      width: 340px;
+      height:280px;
+    }
+
+    #productsCard{
+      width: 340px;
+      height:280px;
     }
   }
 
-  @media screen and (min-width:600px) and ( max-width:960px){
-    #imageSize{
-      height:270px;
-      width:480px;
+  @media screen and (min-width:480px) and (max-width:768px){
+    #productsBtn{
+      width: 400px;
+      height:280px;
+    }
+
+    #productsCard{
+      width: 400px;
+      height:280px;
     }
   }
 
-  @media screen and (min-width:960px) and ( max-width:1367px){
-    #imageSize{
-      height:162px;
-      width:288px;
+  @media screen and (min-width:768px) and ( max-width:1024px){
+    #productsBtn{
+      width: 400px;
+      height:280px;
+    }
+
+    #productsCard{
+      width: 400px;
+      height:280px;
     }
   }
 
-  @media screen and (orientation: portrait) and (min-width:1023px) and ( max-width:1025px){
-    #imageSize{
-      height:162px;
-      width:288px;
+  @media screen and (min-width:1024px) and ( max-width:1400px){
+    #productsBtn{
+      width: 400px;
+      height:280px;
     }
 
-    #ipad_pro_size{
-      padding-top:200px;
-      /*
-        ipad proの縦の長さと ipadの横の長さが同じなのに涙を流して書いた部分です
-        なにか良い実装方法があれば教えていただけると幸いです
-       */
+    #productsCard{
+      width: 400px;
+      height:280px;
     }
   }
 
-  @media screen and (min-width:1367px) and ( max-width:2504px){
-    #imageSize{
-      height:270px;
-      width:480px;
+  @media screen and (min-width:1400px){
+    #productsBtn{
+      width: 400px;
+      height:280px;
     }
-  }
 
-  @media screen and (min-width:2504px) and ( max-width:3000px){
-    #imageSize{
-      height:306px;
-      width:544px;
+    #productsCard{
+      width: 400px;
+      height:280px;
     }
   }
 </style>
