@@ -1,4 +1,4 @@
-<template>
+<template id="body">
   <v-app>
     <v-main>
       <nuxt/>

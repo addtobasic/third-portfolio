@@ -1,4 +1,4 @@
-<template>
+<template div="body">
   <div>
     <Home/>
     <About/>
@@ -25,6 +25,3 @@
     },
   }
 </script>
-<style scoped>
-
-</style>

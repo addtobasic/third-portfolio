@@ -11,7 +11,7 @@
           </div>
         </v-card-title>
         <v-card-subtitle>
-          <NuxtLink to="/">Go back to the top page.</NuxtLink>
+          <a href="https://genshi0916.github.io/">Go back to the top page.</a>
         </v-card-subtitle>
       </div>
       <div class="animation" id="icon">

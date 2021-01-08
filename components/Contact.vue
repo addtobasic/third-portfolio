@@ -40,7 +40,6 @@
 </template>
 <script>
   import FadeInComponent from '../components/FadeInComponent'
-  import url from './webhookUrl'
   export default{
     components:{
       FadeInComponent,
@@ -64,8 +63,7 @@
                 'email:'+email+'\n'+
                 '内容:'+description+'\n'
         }
-        const url = url.WEBHOOKURL
-        console.log(url)
+        const url = 'ここにはWebhookのurlを入れてください'
         fetch(url,{
           method:'POST',
           body:JSON.stringify(payload)
