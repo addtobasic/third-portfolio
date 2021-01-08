@@ -63,7 +63,7 @@
                 'email:'+email+'\n'+
                 '内容:'+description+'\n'
         }
-        const url = 'ここにはWebhookのurlを入れてください'
+        const url = 'ここにはwebhookのurlが入る'
         fetch(url,{
           method:'POST',
           body:JSON.stringify(payload)
