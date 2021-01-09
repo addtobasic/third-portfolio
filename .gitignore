@@ -90,3 +90,9 @@ sw.*
 *.swp
 
 webhookurl.js
+
+docs
+
+firebase-debug.log
+firebase-debug.*.log
+.firebase
