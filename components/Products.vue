@@ -1,45 +1,61 @@
 <template>
   <v-card>
-      <v-layout row>
-        <v-flex
-          xl4 lg4 md6 sm12 xs12
-          v-for="(item, i) in items"
-          :key="i"
-        >
-          <fade-in-component>
-            <section>
-              <div class="cardSpace">
-                <v-container>
-                  <v-row dense>
-                    <v-col id="colCenter">
-                      <v-btn
-                        :href="item.url"
-                        target="_blank"
-                        rel="noreferrer"
-                        style="text-transform: none;"
-                        id="productsBtn"
+    <v-layout row>
+      <v-flex
+        xl4 lg4 md6 sm12 xs12
+        v-for="(item, i) in items"
+        :key="i"
+      >
+        <fade-in-component>
+          <section>
+            <div class="cardSpace">
+              <v-container>
+                <v-row dense>
+                  <v-col id="colCenter">
+                    <v-btn
+                      :href="item.url"
+                      target="_blank"
+                      rel="noreferrer"
+                      style="text-transform: none;"
+                      id="productsBtn"
+                    >
+                      <v-card
+                        color="#37474f"
+                        outlined
+                        elevation="8"
+                        id="productsCard"
                       >
-                        <v-card
-                          color="#37474f"
-                          outlined
-                          elevation="8"
-                          id="productsCard"
-                        >
-                          <v-layout>
-                            <v-img :src="item.image"></v-img>
-                          </v-layout>
-                          <v-card-title v-text="item.title"></v-card-title>
-                          <v-card-subtitle>{{item.description}}</v-card-subtitle>
-                        </v-card>
-                      </v-btn>
-                    </v-col>
-                  </v-row>
-                </v-container>
-              </div>
-            </section>
-          </fade-in-component>
-        </v-flex>
-      </v-layout>
+                        <v-layout>
+                          <v-img
+                            :src="item.image"
+                            :lazy-src="item.lazyImage"
+                          >
+                            <template v-slot:placeholder>
+                              <v-row
+                                class="fill-height ma-0"
+                                align="center"
+                                justify="center"
+                              >
+                                <v-progress-circular
+                                  indeterminate
+                                  color="grey lighten-5"
+                                ></v-progress-circular>
+                              </v-row>
+                            </template>
+                          </v-img>
+                        </v-layout>
+                        <v-card-title v-text="item.title"></v-card-title>
+                        <v-card-subtitle>{{item.description}}</v-card-subtitle>
+                      </v-card>
+                    </v-btn>
+                  </v-col>
+                </v-row>
+              </v-container>
+            </div>
+          </section>
+        </fade-in-component>
+      </v-flex>
+    </v-layout>
   </v-card>
 </template>
 
@@ -58,36 +74,42 @@
           title:"My Portfolio Website",
           description:"今見てもらっているポートフォリオ",
           image:require("../assets/productsImages/portfolio.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/portfolio.png?raw=true",
           url:"https://github.com/Genshi0916/Genshi0916.github.io",
         },
         {
           title:"Stage Select App",
           description:"スマブラの大会ステージ選択アプリ",
           image:require("../assets/productsImages/smash.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/smash.png?raw=true",
           url:"https://smash-bros-stage-select-app.web.app/",
         },
         {
           title:"When is the Deadline",
           description:"卒論提出や長期休み終了に使う邪悪なタイマー",
           image:require("../assets/productsImages/timer.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/timer.png?raw=true",
           url:"https://genshi0916.github.io/when_is_the_deadline/#/",
         },
         {
           title:"Twitter Yamero",
           description:"Twitterをやめさせるフォームがでるchrome拡張機能",
           image:require("../assets/productsImages/twitter_yamero.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/twitter_yamero.png?raw=true",
           url:"https://github.com/Genshi0916/Twitter_Yamero",
         },
         {
           title:"Genshi Contribution Check",
           description:"その日コミットしていなかったら煽られるtwitter bot",
           image:require("../assets/productsImages/contribution.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/contribution.png?raw=true",
           url:"https://github.com/Genshi0916/genshi-contribution-check",
         },
         {
           title:"Auto Add Hatena Blog Star",
           description:"はてなブログの記事に任意個数starをつけてくれるアプリ",
           image:require("../assets/productsImages/hatena.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/hatena.png?raw=true",
           url:"https://github.com/Genshi0916/auto-add-hatena-blog-star",
         },
       ]

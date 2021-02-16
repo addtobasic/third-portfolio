@@ -1,5 +1,5 @@
 <template>
-  <v-card 
+  <v-card
     :width="windowWidth"
     :height="windowHeight"
     style="background-color:#263238;"
@@ -27,7 +27,7 @@
       windowWidth: window.innerWidth,
       windowHeight: window.innerHeight,
     }),
-    
+
     methods: {
       getWindowSize: function() {
         this.windowWidth = window.innerWidth;
