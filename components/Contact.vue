@@ -33,7 +33,7 @@
       </div>
       <div id="copyRight">
         <h5 align="center">icon by <a href="https://twitter.com/V_Melville" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
-        <h4 align="center">© 2020 Genshi0916</h4>
+        <h4 align="center">© 2021 Genshi0916</h4>
       </div>
     </v-card>
   </div>

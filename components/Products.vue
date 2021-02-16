@@ -13,8 +13,8 @@
                   <v-row dense>
                     <v-col id="colCenter">
                       <v-btn
-                        :href="item.url" 
-                        target="_blank" 
+                        :href="item.url"
+                        target="_blank"
                         rel="noreferrer"
                         style="text-transform: none;"
                         id="productsBtn"
@@ -22,7 +22,7 @@
                         <v-card
                           color="#37474f"
                           outlined
-                          elevation="24"
+                          elevation="8"
                           id="productsCard"
                         >
                           <v-layout>
