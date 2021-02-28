@@ -112,6 +112,13 @@
           lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/hatena.png?raw=true",
           url:"https://github.com/Genshi0916/auto-add-hatena-blog-star",
         },
+        {
+          title:"BazUp!!",
+          description:"jigjpインターンで作った投稿した画像をバズらせるアプリ",
+          image:require("../assets/productsImages/bazup.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/bazup.png?raw=true",
+          url:"https://github.com/Genshi0916/bazup",
+        },
       ]
     })
   }

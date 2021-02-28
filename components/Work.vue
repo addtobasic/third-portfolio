@@ -247,6 +247,22 @@
                   </v-row>
                 </v-timeline-item>
                 <v-timeline-item
+                  class="mb-4"
+                  color="#7A57D1"
+                  small
+                >
+                  <v-row justify="space-between">
+                    <v-col cols="12" sm="3" md="3">
+                      2021 2/26
+                    </v-col>
+                    <v-col
+                      cols="12" sm="9" md="9"
+                    >
+                      <a href="https://jig.jp/topics/202012252000/" target="_blank" rel="noopener noreferrer">2021年冬jig.jpインターン</a> 参加
+                    </v-col>
+                  </v-row>
+                </v-timeline-item>
+                <v-timeline-item
                   hide-dot
                   small
                 >
