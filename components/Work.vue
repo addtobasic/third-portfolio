@@ -221,22 +221,6 @@
                 >
                   <v-row justify="space-between">
                     <v-col cols="12" sm="3" md="3">
-                      2020 10/10
-                    </v-col>
-                    <v-col
-                      cols="12" sm="9" md="9"
-                    >
-                      <a href="http://www.procon.gr.jp/?page_id=76771/" target="_blank" rel="noopener noreferrer">第31回高専プロコン</a> 競技部門 コロナウィルスにより開催ならず
-                    </v-col>
-                  </v-row>
-                </v-timeline-item>
-                <v-timeline-item
-                  class="mb-4"
-                  color="#50C1E9"
-                  small
-                >
-                  <v-row justify="space-between">
-                    <v-col cols="12" sm="3" md="3">
                       2020 11/3
                     </v-col>
                     <v-col
@@ -248,7 +232,7 @@
                 </v-timeline-item>
                 <v-timeline-item
                   class="mb-4"
-                  color="#7A57D1"
+                  color="#50C1E9"
                   small
                 >
                   <v-row justify="space-between">
