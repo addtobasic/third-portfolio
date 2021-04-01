@@ -6,7 +6,7 @@
         <v-container style="max-width: 800px;">
           <fade-in-component>
             <section>
-              <v-card>
+              <v-card elevation="8">
                 <v-card-text>
                   <v-container>
                     <v-row>
