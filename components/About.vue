@@ -10,7 +10,7 @@
                 <v-row>
                   <v-col>
                     <div>
-                      <v-card-title class="aboutText">Webらへんと面白いと思ったものをつくるのがすきです</v-card-title>
+                      <v-card-title class="aboutText">面白いと思ったものと欲しいと思ったものと趣味に関するものを作るのがすきです</v-card-title>
                       <v-list>
                         <v-list-item v-for="(item, i) in list" :key="i">
                           <v-list-item-icon>
@@ -23,7 +23,7 @@
                   </v-col>
                 </v-row>
               </v-container>
-            </v-card>  
+            </v-card>
           </section>
         </fade-in-component>
       </v-layout>
@@ -42,7 +42,7 @@
         list:[
           {
             icon:'mdi-school',
-            about:'旭川工業高等専門学校 システム制御情報工学科 3年'
+            about:'旭川工業高等専門学校 システム制御情報工学科 4年'
           },
           {
             icon:'mdi-account-group',
@@ -63,7 +63,7 @@
     color: #35495e;
     padding:30px 0px;
   }
-  
+
 /* カードの下にテキスト */
   #aboutMain{
     padding-bottom: 50px;
@@ -87,7 +87,7 @@
     #mainCard{
       width: 420px;
     }
-    
+
     .listText{
       font-size: 15px;
     }
@@ -101,7 +101,7 @@
     .aboutText{
       font-size: 20px;
     }
-    
+
     .listText{
       font-size: 18px;
     }
@@ -113,7 +113,7 @@
     .aboutText{
       font-size: 20px;
     }
-    
+
     .listText{
       font-size: 18px;
     }
@@ -123,7 +123,7 @@
     .aboutText{
       font-size: 20px;
     }
-    
+
     .listText{
       font-size: 18px;
     }
