@@ -119,6 +119,13 @@
           lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/bazup.png?raw=true",
           url:"https://github.com/Genshi0916/bazup",
         },
+        {
+          title:"Auto Download Pixiv Images",
+          description:"pixivのブックマークをダウンロードしてくれるアプリ",
+          image:require("../assets/productsImages/pixiv.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/pixiv.png?raw=true",
+          url:"https://github.com/Genshi0916/auto-download-pixiv-bookmark-images",
+        },
       ]
     })
   }
