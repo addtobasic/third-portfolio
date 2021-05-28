@@ -32,7 +32,7 @@
         </v-container>
       </div>
       <div id="copyRight">
-        <h5 align="center">icon by <a href="https://twitter.com/V_Melville" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
+        <h5 align="center">icon by <a href="https://twitter.com/MelvilleTw" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
         <h4 align="center">© 2021 Genshi0916</h4>
       </div>
     </v-card>
@@ -64,11 +64,12 @@
                 '内容:'+description+'\n'
         }
         const url = 'ここにはwebhookのurlが入る'
+
         fetch(url,{
           method:'POST',
           body:JSON.stringify(payload)
         }).then(()=>{
-          alert('送信完了');
+          alert('送信完了\n折り返しの連絡をお待ちください');
           this.name="";
           this.email="";
           this.description="";

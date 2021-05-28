@@ -126,6 +126,13 @@
           lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/pixiv.png?raw=true",
           url:"https://github.com/Genshi0916/auto-download-pixiv-bookmark-images",
         },
+        {
+          title:"Auto Attendance Confirmation",
+          description:"自動で出席確認のgoogle formに回答するアプリ",
+          image:require("../assets/productsImages/form.png"),
+          lazyImage:"https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/form.png?raw=true",
+          url:"https://github.com/Genshi0916/auto-attendance-confirmation",
+        },
       ]
     })
   }
