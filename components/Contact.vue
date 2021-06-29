@@ -32,7 +32,7 @@
         </v-container>
       </div>
       <div id="copyRight">
-        <h5 align="center">icon by <a href="https://twitter.com/MelvilleTw" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
+        <h5 align="center">Icon by <a href="https://twitter.com/MelvilleTw" target="_blank" rel="noopener noreferrer">@V_Melville</a></h5>
         <h4 align="center">© 2021 Genshi0916</h4>
       </div>
     </v-card>
