@@ -266,7 +266,7 @@
                   hide-dot
                   small
                 >
-                  and Now
+                  and now...
                 </v-timeline-item>
               </v-timeline>
             </v-card>
