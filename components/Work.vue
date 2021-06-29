@@ -247,6 +247,22 @@
                   </v-row>
                 </v-timeline-item>
                 <v-timeline-item
+                  class="mb-4"
+                  color="#7A57D1"
+                  small
+                >
+                  <v-row justify="space-between">
+                    <v-col cols="12" sm="3" md="3">
+                      2021 6/26
+                    </v-col>
+                    <v-col
+                      cols="12" sm="9" md="9"
+                    >
+                      <a href="https://www.tmcseec.net/ja/cst4u25_2021" target="_blank" rel="noopener noreferrer">サイバーセキュリティTOKYO for U25</a> 参加
+                    </v-col>
+                  </v-row>
+                </v-timeline-item>
+                <v-timeline-item
                   hide-dot
                   small
                 >
