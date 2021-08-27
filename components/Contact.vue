@@ -91,8 +91,7 @@ export default {
           description +
           '\n',
       }
-      // const url = 'ここにはwebhookのurlが入る'
-      const url = 'https://hooks.slack.com/services/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'
+      const url = 'ここにはwebhookのurlが入る'
 
       fetch(url, {
         method: 'POST',
