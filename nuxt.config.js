@@ -15,16 +15,15 @@ export default {
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
     script: [
       {
-        src:'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
+        src:
+          'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js',
         body: true,
       },
     ],
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: [
-    '../assets/main.css',
-  ],
+  css: ['../assets/main.css'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
