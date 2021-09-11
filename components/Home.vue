@@ -33,7 +33,7 @@
           ><v-icon>mdi-instagram</v-icon></a
         >
         <a href="https://qiita.com/genshi0916" target="_blank" rel="noreferrer"
-          ><v-icon>mdi-blogger</v-icon></a
+          ><v-icon>mdi-pencil-box-multiple</v-icon></a
         >
       </v-row>
     </div>
