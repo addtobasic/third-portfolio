@@ -232,6 +232,20 @@
                     </v-col>
                   </v-row>
                 </v-timeline-item>
+                <v-timeline-item class="mb-4" color="#50C1E9" small>
+                  <v-row justify="space-between">
+                    <v-col cols="12" sm="3" md="3"> 2021 9/6~ 10</v-col>
+                    <v-col cols="12" sm="9" md="9">
+                      <a
+                        href="https://e-seikatsu.snar.jp/jobboard/detail.aspx?id=9BjwS-eTmr6U1o1M_6Imqg"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >株式会社いい生活 インターン</a
+                      >
+                      参加
+                    </v-col>
+                  </v-row>
+                </v-timeline-item>
                 <v-timeline-item hide-dot small> and now... </v-timeline-item>
               </v-timeline>
             </v-card>
