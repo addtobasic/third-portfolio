@@ -70,73 +70,73 @@ export default {
         description: '今見てもらっているポートフォリオ',
         image: require('../assets/productsImages/portfolio.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/portfolio.png?raw=true',
-        url: 'https://github.com/Genshi0916/Genshi0916.github.io',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/portfolio.png?raw=true',
+        url: 'https://github.com/addtobasic/portfolio',
       },
       {
         title: 'Stage Select App',
         description: 'スマブラの大会ステージ選択アプリ',
         image: require('../assets/productsImages/smash.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/smash.png?raw=true',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/smash.png?raw=true',
         url: 'https://smash-bros-stage-select-app.web.app/',
       },
       {
-        title: 'When is the Deadline',
+        title: 'Deadline Timer',
         description: '卒論提出や長期休み終了に使う邪悪なタイマー',
         image: require('../assets/productsImages/timer.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/timer.png?raw=true',
-        url: 'https://genshi0916.github.io/when_is_the_deadline/#/',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/timer.png?raw=true',
+        url: 'https://addtobasic.github.io/deadline-timer/',
       },
       {
         title: 'Twitter Yamero',
         description: 'Twitterをやめさせるフォームがでるchrome拡張機能',
         image: require('../assets/productsImages/twitter_yamero.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/twitter_yamero.png?raw=true',
-        url: 'https://github.com/Genshi0916/Twitter_Yamero',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/twitter_yamero.png?raw=true',
+        url: 'https://github.com/addtobasic/Twitter-Yamero',
       },
       {
         title: 'Genshi Contribution Check',
         description: 'その日コミットしていなかったら煽られるtwitter bot',
         image: require('../assets/productsImages/contribution.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/contribution.png?raw=true',
-        url: 'https://github.com/Genshi0916/genshi-contribution-check',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/contribution.png?raw=true',
+        url: 'https://github.com/addtobasic/genshi-contribution-check',
       },
       {
         title: 'Auto Add Hatena Blog Star',
         description: 'はてなブログの記事に任意個数starをつけてくれるアプリ',
         image: require('../assets/productsImages/hatena.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/hatena.png?raw=true',
-        url: 'https://github.com/Genshi0916/auto-add-hatena-blog-star',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/hatena.png?raw=true',
+        url: 'https://github.com/addtobasic/auto-add-hatena-blog-star',
       },
       {
         title: 'BazUp!!',
         description: 'jigjpインターンで作った投稿した画像をバズらせるアプリ',
         image: require('../assets/productsImages/bazup.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/bazup.png?raw=true',
-        url: 'https://github.com/Genshi0916/bazup',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/bazup.png?raw=true',
+        url: 'https://github.com/addtobasic/bazup',
       },
       {
         title: 'Auto Download Pixiv Images',
         description: 'pixivのブックマークをダウンロードしてくれるアプリ',
         image: require('../assets/productsImages/pixiv.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/pixiv.png?raw=true',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/pixiv.png?raw=true',
         url:
-          'https://github.com/Genshi0916/auto-download-pixiv-bookmark-images',
+          'https://github.com/addtobasic/auto-download-pixiv-bookmark-images',
       },
       {
         title: 'Auto Attendance Confirmation',
         description: '自動で出席確認のgoogle formに回答するアプリ',
         image: require('../assets/productsImages/form.png'),
         lazyImage:
-          'https://github.com/Genshi0916/Genshi0916.github.io/blob/master/assets/productsImages/form.png?raw=true',
-        url: 'https://github.com/Genshi0916/auto-attendance-confirmation',
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/form.png?raw=true',
+        url: 'https://github.com/addtobasic/auto-attendance-confirmation',
       },
     ],
   }),

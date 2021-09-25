@@ -51,10 +51,10 @@
             href="https://twitter.com/MelvilleTw"
             target="_blank"
             rel="noopener noreferrer"
-            >@V_Melville</a
+            >@MelvilleTw</a
           >
         </h5>
-        <h4 align="center">© 2021 Genshi0916</h4>
+        <h4 align="center">© 2021 addtobasic</h4>
       </div>
     </v-card>
   </div>

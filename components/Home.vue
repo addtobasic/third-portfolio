@@ -8,16 +8,16 @@
       <div align="center">
         <div id="icon"></div>
       </div>
-      <h1 id="nickName" align="center">Genshi0916</h1>
+      <h1 id="nickName" align="center">Genshi</h1>
       <h2 id="name" align="center">Genki Kano</h2>
       <v-row justify="space-around">
         <a
-          href="https://twitter.com/genshi0916"
+          href="https://twitter.com/addtobasic"
           target="_blank"
           rel="noreferrer"
           ><v-icon>mdi-twitter</v-icon></a
         >
-        <a href="https://github.com/Genshi0916" target="_blank" rel="noreferrer"
+        <a href="https://github.com/addtobasic" target="_blank" rel="noreferrer"
           ><v-icon>mdi-github</v-icon></a
         >
         <a
@@ -27,12 +27,12 @@
           ><v-icon>mdi-facebook</v-icon></a
         >
         <a
-          href="https://www.instagram.com/genshi0916/"
+          href="https://www.instagram.com/addtobasic/"
           target="_blank"
           rel="noreferrer"
           ><v-icon>mdi-instagram</v-icon></a
         >
-        <a href="https://qiita.com/genshi0916" target="_blank" rel="noreferrer"
+        <a href="https://qiita.com/addtobasic" target="_blank" rel="noreferrer"
           ><v-icon>mdi-pencil-box-multiple</v-icon></a
         >
       </v-row>
