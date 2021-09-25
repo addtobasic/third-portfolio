@@ -1,15 +1,15 @@
-# Genshi0916.github.io
+# portfolio
 
 僕のポートフォリオです
 
-url : [https://genshi-0916.web.app/](https://genshi-0916.web.app/)
+url : [addtobasic.dev](https://addtobasic.dev/)
 # Setup
- 
+
 ```bash
-$ git clone https://github.com/Genshi0916/Genshi0916.github.io
-$ cd Genshi0916.github.io
+$ git clone https://github.com/addtobasic/portfolio.git
+$ cd portfolio
 $ npm install
-``` 
+```
 # Start
 
 ```bash
