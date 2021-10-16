@@ -138,6 +138,14 @@ export default {
           'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/form.png?raw=true',
         url: 'https://github.com/addtobasic/auto-attendance-confirmation',
       },
+      {
+        title: 'CUI Portfolio',
+        description: 'ubuntuのターミナルに寄せたCUI ポートフォリオ',
+        image: require('../assets/productsImages/cui.png'),
+        lazyImage:
+          'https://github.com/addtobasic/portfolio/blob/master/assets/productsImages/cui.png?raw=true',
+        url: 'https://addtobasic.github.io/',
+      },
     ],
   }),
 }
