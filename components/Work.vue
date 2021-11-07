@@ -176,6 +176,13 @@ export default {
         aTagContent: '第32回高専プロコン',
         subContent: '競技部門',
       },
+      {
+        color: '#5BE7C4',
+        date: '2021 11/3',
+        url: 'https://www.youtube.com/watch?v=aASXCBUuDLc&t=23807s',
+        aTagContent: '第11回 旭川 U-16 procon',
+        subContent: 'スタッフ 実況',
+      },
     ],
   }),
 }
